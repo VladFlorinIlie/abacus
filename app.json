@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "Abacus",
-    "description": "🔥 Abacus: Firefly III iOS app 🔥",
+    "description": "🔥 Abacus: Firefly III Android app 🔥",
     "slug": "abacus",
-    "privacy": "public",
+    "privacy": "hidden",
     "platforms": [
-      "ios"
+      "android"
     ],
     "version": "0.4.0",
     "orientation": "portrait",
@@ -17,26 +17,24 @@
     "updates": {
       "enabled": true,
       "checkAutomatically": "ON_ERROR_RECOVERY",
-      "url": "https://u.expo.dev/292ed6dc-804c-4444-95f5-fa5d76d9913b"
+      "url": "https://u.expo.dev/27d6b15c-a257-4708-9a87-f7eacb2d6b3f"
     },
-    "ios": {
+    "android": {
       "buildNumber": "0.4.0",
-      "bundleIdentifier": "abacus.ios.app",
-      "infoPlist": {
-        "NSFaceIDUsageDescription": "Abacus use Authentication with TouchId or FaceID"
-      },
+      "bundleIdentifier": "abacus.android.app",
       "config": {
         "usesNonExemptEncryption": false
-      }
+      },
+      "package": "net.asimpleserver.abacus"
     },
-    "scheme": "abacusiosapp",
-    "githubUrl": "https://github.com/victorbalssa/abacus",
+    "scheme": "abacusandroidapp",
+    "githubUrl": "https://github.com/VladFlorinIlie/abacus",
     "runtimeVersion": {
       "policy": "sdkVersion"
     },
     "extra": {
       "eas": {
-        "projectId": "292ed6dc-804c-4444-95f5-fa5d76d9913b"
+        "projectId": "27d6b15c-a257-4708-9a87-f7eacb2d6b3f"
       }
     }
   }

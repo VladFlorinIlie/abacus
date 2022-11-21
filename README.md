@@ -1,7 +1,7 @@
 <div align="center">
     <p></p>
   <img alt="logo" src="documentation/img.png" height=120 />
-  <h1>🔥 Abacus: Firefly III iOS app 🔥</h1>
+  <h1>🔥 Abacus: Firefly III Android app 🔥</h1>
     <div>
         <a href="https://apps.apple.com/us/app/1627093491"><img src="documentation/apple.svg" /></a>
     </div>
@@ -23,8 +23,8 @@
 
 ### 🎙 Introduction
 
-[Firefly III](https://github.com/firefly-iii/firefly-iii) iOS application to manage your self-hosted Firefly III from
-your iPhone.
+[Firefly III](https://github.com/firefly-iii/firefly-iii) Android application to manage your self-hosted Firefly III from
+your Android.
 
 All Tokens are stored in **iOS Keychains**.
 
